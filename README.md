@@ -38,5 +38,5 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 # Contributors
 {% for rd in site.stu %}
-    <img src="{{rd.image}}"> {{rd.user}} {{rd.name}} {{rd.content}}
+    ![alt text]({{rd.image}}) {{rd.user}} {{rd.name}} {{rd.content}}
 {% endfor %}
